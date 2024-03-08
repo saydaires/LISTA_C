@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include<stdlib.h>
+main () {
+	int A, B, C;
+	
+	printf("Write an whole number A: ");
+	scanf("%d", &A);
+	
+	
+	printf("Write an whole number B: ");
+	scanf("%d", &B);
+	
+	
+	printf("Write an whole number C: ");
+	scanf("%d", &C);
+	
+	if(A + B < C) {
+		system("cls");
+		printf("The sum between A and B is less than C");
+	}
+}
